@@ -1,7 +1,7 @@
-export default function ItemsListContainer (greetings) {
+export default function ItemsListContainer (props) {
     return(
-
-        <h1>{greetings}</h1>
-
+        <div className='titleContainer'>
+            <h1 className='mainTitle'>{props.greetings}</h1>
+        </div>
     )
 }

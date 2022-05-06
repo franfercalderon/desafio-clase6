@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import  './styles/components/navbar.sass'
-import './styles/components/cartwidget.sass'
+
+import  './styles/components/styles.sass'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
