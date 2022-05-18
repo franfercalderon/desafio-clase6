@@ -20,6 +20,10 @@ export default function ItemDetailContainer ({index}) {
     },[])
 
     return(
-        <ItemDetail item={item} />
+        <>
+            {
+                item && <ItemDetail item={item} />
+            }
+        </>
     )
 }

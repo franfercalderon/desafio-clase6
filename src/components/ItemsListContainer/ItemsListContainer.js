@@ -20,6 +20,7 @@ export default function ItemsListContainer (props) {
             </div>
 
             <ItemList products={array} />
+            {/* <ItemDetailContainer item={item}/> */}
         </>
     )
 }
